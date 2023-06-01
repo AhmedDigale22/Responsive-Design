@@ -1,0 +1,123 @@
+h1 {
+  color: #454f6f;
+}
+#navbar {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  float: right;
+  font-size: 2em;
+  white-space: 40px;
+  text-decoration: none;
+  /* background-color: #858080; */
+  color: rgb(107, 63, 63); /* Set text color to ensure visibility */
+  padding: 25px; /*Add padding for spacing*/
+}
+#navbar {
+  width: 100%;
+  background-color: lightgreen;
+  margin-bottom: 10px;
+}
+a:hover {
+  color: white;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+.para {
+  text-align: center;
+  /* height: 100px; */
+  /* line-height: 100px; */
+  vertical-align: middle;
+  font-size: 1.5em;
+  margin: 5em;
+  padding: 2.5em;
+  background-color: #eee;
+}
+
+.container {
+  display: flex;
+}
+
+.div2 {
+  background-color: antiquewhite;
+  flex: 1;
+  padding: 3em;
+}
+
+.div2-text {
+  text-align: right;
+  font-size: 1em;
+  background-color: antiquewhite;
+  padding: 5em;
+}
+
+.div3 {
+  flex: 1;
+  padding: 3em;
+  background-color: antiquewhite;
+}
+
+.div3-text {
+  text-align: left;
+  font-size: 1em;
+  background-color: antiquewhite;
+  padding: 6em;
+}
+
+.container2 {
+  display: flex;
+}
+
+.cater {
+  flex: 1;
+  padding: 6em;
+  text-align: start;
+  background-color: darkkhaki;
+
+  /* margin-right: 44em; */
+}
+
+.cater-text {
+  text-align: left;
+  font-size: 1em;
+  background-color: antiquewhite;
+  padding: 2em;
+}
+
+.contact {
+  background-color: darkkhaki;
+  flex: 1;
+  padding: 6em;
+  text-align: end;
+  /* margin-left: 44em; */
+}
+
+.contact-text {
+  text-align: right;
+  font-size: 1em;
+  background-color: antiquewhite;
+  padding: 3em;
+}
+footer {
+  text-align: right;
+  font-size: 1.5em;
+  background-color: black;
+  padding: 2em;
+  color: white;
+  font-family: Impact, Haettenschweiler, inherit;
+}
+/*  <div class="col-xs-4 row"> */
+/* <p>Things cats<span class="text-danger"> love:</span></p> */
+/******* ********************************* */
+/* <button class="btn btn-block btn-primary"><i class="fas  fa-thumbs-up"></i>Like</button> */
